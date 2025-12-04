@@ -22,3 +22,10 @@
 #   - Stop only when total >= target
 
 # Write your code here:
+
+nr = int(input("write a nr: "))
+s = 0
+while(s>=0 and s<=nr):
+    nr2 = int(input("write a nr: "))
+    s = s + nr2
+print(s)

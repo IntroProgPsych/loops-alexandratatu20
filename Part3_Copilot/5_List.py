@@ -20,3 +20,12 @@
 
 # Write your code here:
 numbers = [3, 8, 12, 7, 9, 10, 21, 30]
+ct = 0
+even = []
+for number in numbers:
+    if(number % 2 == 0):
+        even.append(number)
+        ct = ct +1
+print(even)
+print(ct)
+
