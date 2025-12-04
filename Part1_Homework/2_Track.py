@@ -19,3 +19,13 @@
 #   - Update the maximum whenever you read a number that is larger.
 
 # Write your code here:
+
+n = int(input("Write how many nr you will enter: "))
+maxim = -1
+for i in range (0,n):
+    nr = int(input("Write a nr: "))
+    if(nr>maxim):
+       maxim = nr
+print(maxim)
+
+

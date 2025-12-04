@@ -20,3 +20,15 @@
 
 
 # Write your code here:
+
+pin = int(input("Write a pin: "))
+attempt = 1
+if(pin==4321):
+    print("PIN:", pin)
+    print("Correct! It only took you one single attempt!")
+else: 
+    while(pin!=4321):
+        print("Wrong!")
+        attempt = attempt+1
+        pin = int(input("Write a new pin: "))
+    print("Correct! It took you", attempt, "attempts.")
